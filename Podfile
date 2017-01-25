@@ -6,6 +6,7 @@ target 'HubChatDemo' do
   use_frameworks!
   pod 'Alamofire'
   pod 'SnapKit'
+  pod 'SDWebImage'
 
   # Pods for HubChatDemo
 

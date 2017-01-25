@@ -1,1093 +1,673 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>207756D6BA8F17489F484469</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E001916786875261480B0CE9</string>
-				<string>B540FA2073EBADC52C30E993</string>
-				<string>23CDAD48B3171DE643906D0E</string>
-				<string>C4CE4B132747A3CAB0AFB9F1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>23CDAD48B3171DE643906D0E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-HubChatDemoTests.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-HubChatDemoTests/Pods-HubChatDemoTests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>37B81B094FD9ED4DF549E21D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-HubChatDemoTests/Pods-HubChatDemoTests-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>50AFCCB35AA728C697383A86</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>68A742147099A0615989C899</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-HubChatDemoTests/Pods-HubChatDemoTests-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>69130F503CD80D7927D2184E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>756BA2A6D55610771313A367</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>756BA2A6D55610771313A367</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_HubChatDemoTests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>79B46BB2BC4A93337146687D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8F307E7392D57EB691ED34B7</string>
-				<string>756BA2A6D55610771313A367</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8E1CC5B31E379B8100497C61</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8E1CC5BE1E379B8100497C61</string>
-				<string>8E1CC5D31E379B8100497C61</string>
-				<string>8E1CC5BD1E379B8100497C61</string>
-				<string>207756D6BA8F17489F484469</string>
-				<string>79B46BB2BC4A93337146687D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8E1CC5B41E379B8100497C61</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0820</string>
-				<key>LastUpgradeCheck</key>
-				<string>0820</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Segun Solaja</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>8E1CC5BB1E379B8100497C61</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.2.1</string>
-						<key>DevelopmentTeam</key>
-						<string>TV92RDK63W</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-					</dict>
-					<key>8E1CC5CF1E379B8100497C61</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.2.1</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-						<key>TestTargetID</key>
-						<string>8E1CC5BB1E379B8100497C61</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>8E1CC5B71E379B8100497C61</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>8E1CC5B31E379B8100497C61</string>
-			<key>productRefGroup</key>
-			<string>8E1CC5BD1E379B8100497C61</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>8E1CC5BB1E379B8100497C61</string>
-				<string>8E1CC5CF1E379B8100497C61</string>
-			</array>
-		</dict>
-		<key>8E1CC5B71E379B8100497C61</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8E1CC5D71E379B8100497C61</string>
-				<string>8E1CC5D81E379B8100497C61</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8E1CC5B81E379B8100497C61</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8E1CC5C21E379B8100497C61</string>
-				<string>8E1CC5C01E379B8100497C61</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8E1CC5B91E379B8100497C61</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>ADE5646123E9A32B290072F7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8E1CC5BA1E379B8100497C61</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8E1CC5CA1E379B8100497C61</string>
-				<string>8E1CC5C71E379B8100497C61</string>
-				<string>8E1CC5C51E379B8100497C61</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8E1CC5BB1E379B8100497C61</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8E1CC5D91E379B8100497C61</string>
-			<key>buildPhases</key>
-			<array>
-				<string>50AFCCB35AA728C697383A86</string>
-				<string>8E1CC5B81E379B8100497C61</string>
-				<string>8E1CC5B91E379B8100497C61</string>
-				<string>8E1CC5BA1E379B8100497C61</string>
-				<string>908CBF4CF42DBA4AAAB74F08</string>
-				<string>F31A89893A9D60338B9124F1</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>HubChatDemo</string>
-			<key>productName</key>
-			<string>HubChatDemo</string>
-			<key>productReference</key>
-			<string>8E1CC5BC1E379B8100497C61</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>8E1CC5BC1E379B8100497C61</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>HubChatDemo.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8E1CC5BD1E379B8100497C61</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8E1CC5BC1E379B8100497C61</string>
-				<string>8E1CC5D01E379B8100497C61</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8E1CC5BE1E379B8100497C61</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8E1CC5BF1E379B8100497C61</string>
-				<string>8E1CC5C11E379B8100497C61</string>
-				<string>8E1CC5C31E379B8100497C61</string>
-				<string>8E1CC5C61E379B8100497C61</string>
-				<string>8E1CC5C81E379B8100497C61</string>
-				<string>8E1CC5CB1E379B8100497C61</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>HubChatDemo</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8E1CC5BF1E379B8100497C61</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8E1CC5C01E379B8100497C61</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8E1CC5BF1E379B8100497C61</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8E1CC5C11E379B8100497C61</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8E1CC5C21E379B8100497C61</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8E1CC5C11E379B8100497C61</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8E1CC5C31E379B8100497C61</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8E1CC5C41E379B8100497C61</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8E1CC5C41E379B8100497C61</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8E1CC5C51E379B8100497C61</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8E1CC5C31E379B8100497C61</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8E1CC5C61E379B8100497C61</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8E1CC5C71E379B8100497C61</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8E1CC5C61E379B8100497C61</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8E1CC5C81E379B8100497C61</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8E1CC5C91E379B8100497C61</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8E1CC5C91E379B8100497C61</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8E1CC5CA1E379B8100497C61</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8E1CC5C81E379B8100497C61</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8E1CC5CB1E379B8100497C61</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8E1CC5CC1E379B8100497C61</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8E1CC5D51E379B8100497C61</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8E1CC5CD1E379B8100497C61</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>69130F503CD80D7927D2184E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8E1CC5CE1E379B8100497C61</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8E1CC5CF1E379B8100497C61</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8E1CC5DC1E379B8100497C61</string>
-			<key>buildPhases</key>
-			<array>
-				<string>B21733B8B319061A5DE45EF1</string>
-				<string>8E1CC5CC1E379B8100497C61</string>
-				<string>8E1CC5CD1E379B8100497C61</string>
-				<string>8E1CC5CE1E379B8100497C61</string>
-				<string>68A742147099A0615989C899</string>
-				<string>37B81B094FD9ED4DF549E21D</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>8E1CC5D21E379B8100497C61</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>HubChatDemoTests</string>
-			<key>productName</key>
-			<string>HubChatDemoTests</string>
-			<key>productReference</key>
-			<string>8E1CC5D01E379B8100497C61</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>8E1CC5D01E379B8100497C61</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>HubChatDemoTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8E1CC5D11E379B8100497C61</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>8E1CC5B41E379B8100497C61</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>8E1CC5BB1E379B8100497C61</string>
-			<key>remoteInfo</key>
-			<string>HubChatDemo</string>
-		</dict>
-		<key>8E1CC5D21E379B8100497C61</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>8E1CC5BB1E379B8100497C61</string>
-			<key>targetProxy</key>
-			<string>8E1CC5D11E379B8100497C61</string>
-		</dict>
-		<key>8E1CC5D31E379B8100497C61</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8E1CC5D41E379B8100497C61</string>
-				<string>8E1CC5D61E379B8100497C61</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>HubChatDemoTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8E1CC5D41E379B8100497C61</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>HubChatDemoTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8E1CC5D51E379B8100497C61</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8E1CC5D41E379B8100497C61</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8E1CC5D61E379B8100497C61</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8E1CC5D71E379B8100497C61</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INFINITE_RECURSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.2</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_ACTIVE_COMPILATION_CONDITIONS</key>
-				<string>DEBUG</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8E1CC5D81E379B8100497C61</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INFINITE_RECURSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.2</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Owholemodule</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8E1CC5D91E379B8100497C61</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8E1CC5DA1E379B8100497C61</string>
-				<string>8E1CC5DB1E379B8100497C61</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8E1CC5DA1E379B8100497C61</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E001916786875261480B0CE9</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>TV92RDK63W</string>
-				<key>INFOPLIST_FILE</key>
-				<string>HubChatDemo/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.demo.HubChatDemo</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8E1CC5DB1E379B8100497C61</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B540FA2073EBADC52C30E993</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>TV92RDK63W</string>
-				<key>INFOPLIST_FILE</key>
-				<string>HubChatDemo/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.demo.HubChatDemo</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8E1CC5DC1E379B8100497C61</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8E1CC5DD1E379B8100497C61</string>
-				<string>8E1CC5DE1E379B8100497C61</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8E1CC5DD1E379B8100497C61</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>23CDAD48B3171DE643906D0E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
-				<string>YES</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>HubChatDemoTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.demo.HubChatDemoTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/HubChatDemo.app/HubChatDemo</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8E1CC5DE1E379B8100497C61</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C4CE4B132747A3CAB0AFB9F1</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
-				<string>YES</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>HubChatDemoTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.demo.HubChatDemoTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/HubChatDemo.app/HubChatDemo</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8F307E7392D57EB691ED34B7</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_HubChatDemo.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>908CBF4CF42DBA4AAAB74F08</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-HubChatDemo/Pods-HubChatDemo-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>ADE5646123E9A32B290072F7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8F307E7392D57EB691ED34B7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B21733B8B319061A5DE45EF1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>B540FA2073EBADC52C30E993</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-HubChatDemo.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-HubChatDemo/Pods-HubChatDemo.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4CE4B132747A3CAB0AFB9F1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-HubChatDemoTests.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-HubChatDemoTests/Pods-HubChatDemoTests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E001916786875261480B0CE9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-HubChatDemo.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-HubChatDemo/Pods-HubChatDemo.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F31A89893A9D60338B9124F1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-HubChatDemo/Pods-HubChatDemo-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>8E1CC5B41E379B8100497C61</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69130F503CD80D7927D2184E /* Pods_HubChatDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 756BA2A6D55610771313A367 /* Pods_HubChatDemoTests.framework */; };
+		8E1CC5C01E379B8100497C61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CC5BF1E379B8100497C61 /* AppDelegate.swift */; };
+		8E1CC5C21E379B8100497C61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CC5C11E379B8100497C61 /* ViewController.swift */; };
+		8E1CC5C51E379B8100497C61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1CC5C31E379B8100497C61 /* Main.storyboard */; };
+		8E1CC5C71E379B8100497C61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E1CC5C61E379B8100497C61 /* Assets.xcassets */; };
+		8E1CC5CA1E379B8100497C61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1CC5C81E379B8100497C61 /* LaunchScreen.storyboard */; };
+		8E1CC5D51E379B8100497C61 /* HubChatDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CC5D41E379B8100497C61 /* HubChatDemoTests.swift */; };
+		8E1CC5E31E37DF6B00497C61 /* Forum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CC5E21E37DF6B00497C61 /* Forum.swift */; };
+		8E1CC5E51E37DF8C00497C61 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CC5E41E37DF8C00497C61 /* User.swift */; };
+		8E1CC5E71E37DF9D00497C61 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CC5E61E37DF9D00497C61 /* Post.swift */; };
+		8E1CC5E91E37E12600497C61 /* PostConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CC5E81E37E12600497C61 /* PostConverter.swift */; };
+		8E1CC5EB1E37E16500497C61 /* ForumConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CC5EA1E37E16500497C61 /* ForumConverter.swift */; };
+		8E1CC5ED1E37E17700497C61 /* UserConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CC5EC1E37E17700497C61 /* UserConverter.swift */; };
+		8E1CC5EF1E37E83500497C61 /* HubChatNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CC5EE1E37E83500497C61 /* HubChatNetworkService.swift */; };
+		8E1CC5F31E37E8C000497C61 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CC5F11E37E8C000497C61 /* Constants.swift */; };
+		8E1CC5F41E37E8C000497C61 /* URLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CC5F21E37E8C000497C61 /* URLHelper.swift */; };
+		8E1CC5F91E37F55900497C61 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CC5F81E37F55900497C61 /* PostCell.swift */; };
+		8E1CC5FC1E37FD8500497C61 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CC5FB1E37FD8500497C61 /* PostViewModel.swift */; };
+		8E1CC5FE1E38172000497C61 /* PostHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CC5FD1E38172000497C61 /* PostHeader.swift */; };
+		ADE5646123E9A32B290072F7 /* Pods_HubChatDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F307E7392D57EB691ED34B7 /* Pods_HubChatDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E1CC5D11E379B8100497C61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E1CC5B41E379B8100497C61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E1CC5BB1E379B8100497C61;
+			remoteInfo = HubChatDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23CDAD48B3171DE643906D0E /* Pods-HubChatDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HubChatDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HubChatDemoTests/Pods-HubChatDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		756BA2A6D55610771313A367 /* Pods_HubChatDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HubChatDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1CC5BC1E379B8100497C61 /* HubChatDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HubChatDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1CC5BF1E379B8100497C61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E1CC5C11E379B8100497C61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E1CC5C41E379B8100497C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E1CC5C61E379B8100497C61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E1CC5C91E379B8100497C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E1CC5CB1E379B8100497C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E1CC5D01E379B8100497C61 /* HubChatDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HubChatDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1CC5D41E379B8100497C61 /* HubChatDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubChatDemoTests.swift; sourceTree = "<group>"; };
+		8E1CC5D61E379B8100497C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E1CC5E21E37DF6B00497C61 /* Forum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forum.swift; sourceTree = "<group>"; };
+		8E1CC5E41E37DF8C00497C61 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8E1CC5E61E37DF9D00497C61 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		8E1CC5E81E37E12600497C61 /* PostConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostConverter.swift; sourceTree = "<group>"; };
+		8E1CC5EA1E37E16500497C61 /* ForumConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForumConverter.swift; sourceTree = "<group>"; };
+		8E1CC5EC1E37E17700497C61 /* UserConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserConverter.swift; sourceTree = "<group>"; };
+		8E1CC5EE1E37E83500497C61 /* HubChatNetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HubChatNetworkService.swift; sourceTree = "<group>"; };
+		8E1CC5F11E37E8C000497C61 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8E1CC5F21E37E8C000497C61 /* URLHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLHelper.swift; sourceTree = "<group>"; };
+		8E1CC5F81E37F55900497C61 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		8E1CC5FB1E37FD8500497C61 /* PostViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		8E1CC5FD1E38172000497C61 /* PostHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostHeader.swift; sourceTree = "<group>"; };
+		8F307E7392D57EB691ED34B7 /* Pods_HubChatDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HubChatDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B540FA2073EBADC52C30E993 /* Pods-HubChatDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HubChatDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HubChatDemo/Pods-HubChatDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C4CE4B132747A3CAB0AFB9F1 /* Pods-HubChatDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HubChatDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HubChatDemoTests/Pods-HubChatDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		E001916786875261480B0CE9 /* Pods-HubChatDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HubChatDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HubChatDemo/Pods-HubChatDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E1CC5B91E379B8100497C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE5646123E9A32B290072F7 /* Pods_HubChatDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1CC5CD1E379B8100497C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69130F503CD80D7927D2184E /* Pods_HubChatDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		207756D6BA8F17489F484469 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E001916786875261480B0CE9 /* Pods-HubChatDemo.debug.xcconfig */,
+				B540FA2073EBADC52C30E993 /* Pods-HubChatDemo.release.xcconfig */,
+				23CDAD48B3171DE643906D0E /* Pods-HubChatDemoTests.debug.xcconfig */,
+				C4CE4B132747A3CAB0AFB9F1 /* Pods-HubChatDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		79B46BB2BC4A93337146687D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F307E7392D57EB691ED34B7 /* Pods_HubChatDemo.framework */,
+				756BA2A6D55610771313A367 /* Pods_HubChatDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E1CC5B31E379B8100497C61 = {
+			isa = PBXGroup;
+			children = (
+				8E1CC5BE1E379B8100497C61 /* HubChatDemo */,
+				8E1CC5D31E379B8100497C61 /* HubChatDemoTests */,
+				8E1CC5BD1E379B8100497C61 /* Products */,
+				207756D6BA8F17489F484469 /* Pods */,
+				79B46BB2BC4A93337146687D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E1CC5BD1E379B8100497C61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E1CC5BC1E379B8100497C61 /* HubChatDemo.app */,
+				8E1CC5D01E379B8100497C61 /* HubChatDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E1CC5BE1E379B8100497C61 /* HubChatDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8E1CC5FA1E37FCAE00497C61 /* ViewModel */,
+				8E1CC5F61E37F49900497C61 /* Views */,
+				8E1CC5F01E37E88600497C61 /* Helpers */,
+				8E1CC5E11E37DE8C00497C61 /* Model */,
+				8E1CC5E01E37DE7600497C61 /* JSONConverters */,
+				8E1CC5DF1E37DE6100497C61 /* Service */,
+				8E1CC5BF1E379B8100497C61 /* AppDelegate.swift */,
+				8E1CC5F51E37F26200497C61 /* Controller */,
+				8E1CC5C31E379B8100497C61 /* Main.storyboard */,
+				8E1CC5C61E379B8100497C61 /* Assets.xcassets */,
+				8E1CC5C81E379B8100497C61 /* LaunchScreen.storyboard */,
+				8E1CC5CB1E379B8100497C61 /* Info.plist */,
+			);
+			path = HubChatDemo;
+			sourceTree = "<group>";
+		};
+		8E1CC5D31E379B8100497C61 /* HubChatDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E1CC5D41E379B8100497C61 /* HubChatDemoTests.swift */,
+				8E1CC5D61E379B8100497C61 /* Info.plist */,
+			);
+			path = HubChatDemoTests;
+			sourceTree = "<group>";
+		};
+		8E1CC5DF1E37DE6100497C61 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8E1CC5EE1E37E83500497C61 /* HubChatNetworkService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		8E1CC5E01E37DE7600497C61 /* JSONConverters */ = {
+			isa = PBXGroup;
+			children = (
+				8E1CC5E81E37E12600497C61 /* PostConverter.swift */,
+				8E1CC5EA1E37E16500497C61 /* ForumConverter.swift */,
+				8E1CC5EC1E37E17700497C61 /* UserConverter.swift */,
+			);
+			name = JSONConverters;
+			sourceTree = "<group>";
+		};
+		8E1CC5E11E37DE8C00497C61 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E1CC5E21E37DF6B00497C61 /* Forum.swift */,
+				8E1CC5E41E37DF8C00497C61 /* User.swift */,
+				8E1CC5E61E37DF9D00497C61 /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8E1CC5F01E37E88600497C61 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8E1CC5F11E37E8C000497C61 /* Constants.swift */,
+				8E1CC5F21E37E8C000497C61 /* URLHelper.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		8E1CC5F51E37F26200497C61 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8E1CC5C11E379B8100497C61 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8E1CC5F61E37F49900497C61 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E1CC5F71E37F4B600497C61 /* CustomCell */,
+				8E1CC5FD1E38172000497C61 /* PostHeader.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8E1CC5F71E37F4B600497C61 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				8E1CC5F81E37F55900497C61 /* PostCell.swift */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+		8E1CC5FA1E37FCAE00497C61 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8E1CC5FB1E37FD8500497C61 /* PostViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E1CC5BB1E379B8100497C61 /* HubChatDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1CC5D91E379B8100497C61 /* Build configuration list for PBXNativeTarget "HubChatDemo" */;
+			buildPhases = (
+				50AFCCB35AA728C697383A86 /* [CP] Check Pods Manifest.lock */,
+				8E1CC5B81E379B8100497C61 /* Sources */,
+				8E1CC5B91E379B8100497C61 /* Frameworks */,
+				8E1CC5BA1E379B8100497C61 /* Resources */,
+				908CBF4CF42DBA4AAAB74F08 /* [CP] Embed Pods Frameworks */,
+				F31A89893A9D60338B9124F1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HubChatDemo;
+			productName = HubChatDemo;
+			productReference = 8E1CC5BC1E379B8100497C61 /* HubChatDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E1CC5CF1E379B8100497C61 /* HubChatDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1CC5DC1E379B8100497C61 /* Build configuration list for PBXNativeTarget "HubChatDemoTests" */;
+			buildPhases = (
+				B21733B8B319061A5DE45EF1 /* [CP] Check Pods Manifest.lock */,
+				8E1CC5CC1E379B8100497C61 /* Sources */,
+				8E1CC5CD1E379B8100497C61 /* Frameworks */,
+				8E1CC5CE1E379B8100497C61 /* Resources */,
+				68A742147099A0615989C899 /* [CP] Embed Pods Frameworks */,
+				37B81B094FD9ED4DF549E21D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E1CC5D21E379B8100497C61 /* PBXTargetDependency */,
+			);
+			name = HubChatDemoTests;
+			productName = HubChatDemoTests;
+			productReference = 8E1CC5D01E379B8100497C61 /* HubChatDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E1CC5B41E379B8100497C61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Segun Solaja";
+				TargetAttributes = {
+					8E1CC5BB1E379B8100497C61 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TV92RDK63W;
+						ProvisioningStyle = Automatic;
+					};
+					8E1CC5CF1E379B8100497C61 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8E1CC5BB1E379B8100497C61;
+					};
+				};
+			};
+			buildConfigurationList = 8E1CC5B71E379B8100497C61 /* Build configuration list for PBXProject "HubChatDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E1CC5B31E379B8100497C61;
+			productRefGroup = 8E1CC5BD1E379B8100497C61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E1CC5BB1E379B8100497C61 /* HubChatDemo */,
+				8E1CC5CF1E379B8100497C61 /* HubChatDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E1CC5BA1E379B8100497C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1CC5CA1E379B8100497C61 /* LaunchScreen.storyboard in Resources */,
+				8E1CC5C71E379B8100497C61 /* Assets.xcassets in Resources */,
+				8E1CC5C51E379B8100497C61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1CC5CE1E379B8100497C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37B81B094FD9ED4DF549E21D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HubChatDemoTests/Pods-HubChatDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50AFCCB35AA728C697383A86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		68A742147099A0615989C899 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HubChatDemoTests/Pods-HubChatDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		908CBF4CF42DBA4AAAB74F08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HubChatDemo/Pods-HubChatDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B21733B8B319061A5DE45EF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F31A89893A9D60338B9124F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HubChatDemo/Pods-HubChatDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E1CC5B81E379B8100497C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1CC5FC1E37FD8500497C61 /* PostViewModel.swift in Sources */,
+				8E1CC5E51E37DF8C00497C61 /* User.swift in Sources */,
+				8E1CC5C21E379B8100497C61 /* ViewController.swift in Sources */,
+				8E1CC5E91E37E12600497C61 /* PostConverter.swift in Sources */,
+				8E1CC5C01E379B8100497C61 /* AppDelegate.swift in Sources */,
+				8E1CC5E31E37DF6B00497C61 /* Forum.swift in Sources */,
+				8E1CC5F41E37E8C000497C61 /* URLHelper.swift in Sources */,
+				8E1CC5F31E37E8C000497C61 /* Constants.swift in Sources */,
+				8E1CC5ED1E37E17700497C61 /* UserConverter.swift in Sources */,
+				8E1CC5E71E37DF9D00497C61 /* Post.swift in Sources */,
+				8E1CC5EF1E37E83500497C61 /* HubChatNetworkService.swift in Sources */,
+				8E1CC5EB1E37E16500497C61 /* ForumConverter.swift in Sources */,
+				8E1CC5FE1E38172000497C61 /* PostHeader.swift in Sources */,
+				8E1CC5F91E37F55900497C61 /* PostCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1CC5CC1E379B8100497C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1CC5D51E379B8100497C61 /* HubChatDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E1CC5D21E379B8100497C61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E1CC5BB1E379B8100497C61 /* HubChatDemo */;
+			targetProxy = 8E1CC5D11E379B8100497C61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E1CC5C31E379B8100497C61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E1CC5C41E379B8100497C61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E1CC5C81E379B8100497C61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E1CC5C91E379B8100497C61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E1CC5D71E379B8100497C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E1CC5D81E379B8100497C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E1CC5DA1E379B8100497C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E001916786875261480B0CE9 /* Pods-HubChatDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TV92RDK63W;
+				INFOPLIST_FILE = HubChatDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.HubChatDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8E1CC5DB1E379B8100497C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B540FA2073EBADC52C30E993 /* Pods-HubChatDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TV92RDK63W;
+				INFOPLIST_FILE = HubChatDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.HubChatDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8E1CC5DD1E379B8100497C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23CDAD48B3171DE643906D0E /* Pods-HubChatDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HubChatDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.HubChatDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HubChatDemo.app/HubChatDemo";
+			};
+			name = Debug;
+		};
+		8E1CC5DE1E379B8100497C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4CE4B132747A3CAB0AFB9F1 /* Pods-HubChatDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HubChatDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.HubChatDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HubChatDemo.app/HubChatDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E1CC5B71E379B8100497C61 /* Build configuration list for PBXProject "HubChatDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1CC5D71E379B8100497C61 /* Debug */,
+				8E1CC5D81E379B8100497C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E1CC5D91E379B8100497C61 /* Build configuration list for PBXNativeTarget "HubChatDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1CC5DA1E379B8100497C61 /* Debug */,
+				8E1CC5DB1E379B8100497C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E1CC5DC1E379B8100497C61 /* Build configuration list for PBXNativeTarget "HubChatDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1CC5DD1E379B8100497C61 /* Debug */,
+				8E1CC5DE1E379B8100497C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E1CC5B41E379B8100497C61 /* Project object */;
+}
