@@ -22,6 +22,7 @@ class PostConverter: NSObject {
             return imageItem["cdnUrl"] as! String
       })
     }
+    
     post.upvotes =  (postJson["stats"] as? [String:AnyObject])?["upVotes"] as? Int
     return post
   }

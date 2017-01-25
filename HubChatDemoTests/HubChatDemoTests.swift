@@ -21,16 +21,23 @@ class HubChatDemoTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testGetForum() {
+      HubChatNetworkService.getForum(resultCallBack: { (forum) in
+         XCTAssertNotNil(forum)
+      }) { (err) in
+        XCTFail("Request Failed")
+      }
+      
     }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
+  
+    func testGetPosts() {
+       HubChatNetworkService.getPosts(resultCallBack: { (posts) in
+         XCTAssertNotNil(posts)
+         XCTAssertTrue(posts!.count > 0)
+       }) { (err) in
+         XCTFail("Request Failed")
+      }
+   }
+  
+      
 }

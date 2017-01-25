@@ -52,8 +52,6 @@ class PostCell: UITableViewCell {
     return label
   }()
   
- var imageContentHeight: Constraint? = nil
-  
   override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
     super.init(style: style, reuseIdentifier: reuseIdentifier)
     self.selectionStyle = .none
@@ -94,10 +92,8 @@ class PostCell: UITableViewCell {
       make.bottom.equalTo(self.snp.bottom).offset(-16)
     }
     
-
-    
-    
   }
+  
   func showImage(){
     postImageContent.snp.updateConstraints { (make) in
       make.left.equalTo(self.snp.left).offset(16)
@@ -106,6 +102,7 @@ class PostCell: UITableViewCell {
       make.height.equalTo(200)
     }
   }
+  
   func hideImage(){
     postImageContent.snp.updateConstraints { (make) in
       make.left.equalTo(self.snp.left).offset(16)
